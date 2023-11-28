@@ -15,7 +15,7 @@ const Dashboard = () => {
     <div className=" w-full">
       <Header/>
       <div className=" flex flex-col md:flex-row md:items-center justify-between">
-        <div className=" bg-gray-100 rounded-full w-full mb-3 md:mb-0 px-1 py-2 flex items-center justify-between md:gap-3">
+        <div className=" bg-gray-100 rounded-full w-full md:w-fit mb-3 md:mb-0 px-1 py-2 flex items-center justify-between md:gap-3">
           <button className=" text-md md:text-lg  md:flex px-2 md:px-5 py-1 hover:bg-red-800 rounded-full hover:text-white">All</button>
           <button className=" text-md md:text-lg  md:flex px-2 md:px-5 py-1 hover:bg-red-800 rounded-full hover:text-white">Organization</button>
           <button className=" text-md md:text-lg  md:flex px-2 md:px-5 py-1 hover:bg-red-800 rounded-full hover:text-white">Department</button>
